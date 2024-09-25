@@ -236,6 +236,18 @@ body {
   text-align: right;
 }
 
+.text-end p{
+  margin: 0;
+}
+
+.text-end .line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left, #00bfff, #ffffff);
+  margin-top: 5px;
+}
+
 .red-line {
   width: 100%;
   height: 3px;
@@ -291,6 +303,11 @@ body {
     position: static;
     margin: 20px 0;
   }
+
+  .text-end .line{
+    height: 2px;
+  }
+
   .small-image {
     max-width: 200px;
   }
@@ -906,7 +923,7 @@ body {
 
   .virtue-section::before,
   .virtue-section::after{
-    width: 120px;
+    display: none;
   }
 
   .swiper-button-next,
@@ -1062,7 +1079,7 @@ body {
 
   .video-background::before,
 .video-background::after {
-  width: 55px; /* Ancho de la sombra */
+  display: none; /* Ancho de la sombra */
   
 }
 }

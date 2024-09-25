@@ -61,8 +61,10 @@ const Home = () => {
           </div>
         </div>
         <div className="text-end pe-5 position-absolute bottom-0 end-0 mb-3">
-          <p>Industria Argentina</p>
-        </div>
+  <p>Industria Argentina</p>
+  <span className="line"></span>
+  <span className="line"></span>
+</div>
       </section>
 
       {/* Línea roja fuera del section */}
