@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import contactv from "../assets/contact-V.mp4";
+import contactv from "../assets/contact-v.mp4";
 
 const Contact = () => {
     const formspreeEndpoint = 'https://formspree.io/f/xdknryko';
