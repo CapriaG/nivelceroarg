@@ -612,6 +612,7 @@ body {
   background-position: center;
   position: relative;
   overflow: hidden;
+  min-height: 61vh;
 }
 
 .custom-products-section h2 {

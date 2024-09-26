@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Limpiaparabrisas1 from '../assets/limpiap.png';
+import Limpiaparabrisas2 from '../assets/limpia1L.png';
 
 const PLimpiaparabrisas = () => {
   const [modal, setModal] = useState({ isOpen: false, product: null });
 
   const limpiaparabrisas = [
-    { id: 1, img: Limpiaparabrisas1, name: "Limpiaparabrisas Líquido", description: "El líquido limpia parabrisas Nivel Cero es una solución efectiva para mantener la visibilidad clara mientras conduces. Diseñado para eliminar rápidamente la suciedad, el polvo y los residuos de insectos del parabrisas, su fórmula de alto rendimiento asegura una limpieza eficiente sin dejar residuos. También ayuda a prevenir la formación de hielo en climas fríos." },
+    { id: 1, img: Limpiaparabrisas1, name: "Limpiaparabrisas Líquido 5L", description: "El líquido limpia parabrisas Nivel Cero es una solución efectiva para mantener la visibilidad clara mientras conduces. Diseñado para eliminar rápidamente la suciedad, el polvo y los residuos de insectos del parabrisas, su fórmula de alto rendimiento asegura una limpieza eficiente sin dejar residuos. También ayuda a prevenir la formación de hielo en climas fríos." },
+    { id: 1, img: Limpiaparabrisas2, name: "Limpiaparabrisas Líquido 1L", description: "El líquido limpia parabrisas Nivel Cero es una solución efectiva para mantener la visibilidad clara mientras conduces. Diseñado para eliminar rápidamente la suciedad, el polvo y los residuos de insectos del parabrisas, su fórmula de alto rendimiento asegura una limpieza eficiente sin dejar residuos. También ayuda a prevenir la formación de hielo en climas fríos." },
   ];
 
   const openModal = (product) => {

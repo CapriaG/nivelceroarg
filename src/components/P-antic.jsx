@@ -1,12 +1,17 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Anticorrosivo1 from '../assets/antic.png';
+import Anticorrosivo1 from '../assets/anticr.png';
+import Anticorrosivo2 from '../assets/antic.png';
+import Anticorrosivo3 from '../assets/anticb.png';
+
 
 const PAnticorrosivos = () => {
   const [modal, setModal] = useState({ isOpen: false, product: null });
 
   const anticorrosivos = [
-    { id: 1, img: Anticorrosivo1, name: "Luiquido Anticorrosivo", description: "Diseñado para prevenir la oxidación y la corrosión en superficies metálicas, creando una capa protectora que bloquea la humedad y otros agentes corrosivos. Ideal para proteger vehículos, maquinaria y estructuras expuestas a ambientes húmedos o agresivos." },
+    { id: 1, img: Anticorrosivo1, name: "Luiquido Anticorrosivo (Red)", description: "Diseñado para prevenir la oxidación y la corrosión en superficies metálicas, creando una capa protectora que bloquea la humedad y otros agentes corrosivos. Ideal para proteger vehículos, maquinaria y estructuras expuestas a ambientes húmedos o agresivos." },
+    { id: 1, img: Anticorrosivo2, name: "Luiquido Anticorrosivo (Gold)", description: "Diseñado para prevenir la oxidación y la corrosión en superficies metálicas, creando una capa protectora que bloquea la humedad y otros agentes corrosivos. Ideal para proteger vehículos, maquinaria y estructuras expuestas a ambientes húmedos o agresivos." },
+    { id: 1, img: Anticorrosivo3, name: "Luiquido Anticorrosivo (Blue)", description: "Diseñado para prevenir la oxidación y la corrosión en superficies metálicas, creando una capa protectora que bloquea la humedad y otros agentes corrosivos. Ideal para proteger vehículos, maquinaria y estructuras expuestas a ambientes húmedos o agresivos." } 
   ];
 
   const openModal = (product) => {
