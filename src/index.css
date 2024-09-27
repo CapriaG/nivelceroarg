@@ -319,6 +319,11 @@ body {
 }
 
 @media (max-width: 495px) {
+
+  .text-container img{
+    min-width: 450px;
+  }
+
   .small-image {
     max-width: 150px;
     max-height: 150px;
