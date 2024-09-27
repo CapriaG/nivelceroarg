@@ -289,7 +289,8 @@ body {
   .home-section {
     min-height: 35vh;
     height: auto;
-    padding: 20px;
+    background-position: 91% center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("./assets/home-f.png");
   }
   
   .text-container {
@@ -308,15 +309,19 @@ body {
     height: 2px;
   }
 
+  .small-images-section{
+    margin: 0;
+  }
+
   .small-image {
-    max-width: 200px;
+    max-width: 235px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 495px) {
   .small-image {
-    max-width: 170px;
-    max-height: 170px;
+    max-width: 150px;
+    max-height: 150px;
   }
 }
 
@@ -345,11 +350,10 @@ body {
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   .full-width-image-section {
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   .full-width-image {
-    /* Opcional: puedes reducir el tamaño si es necesario */
     width: 100%;
     height: auto;
   }
@@ -358,12 +362,13 @@ body {
 /* Ajustes para pantallas muy pequeñas */
 @media (max-width: 480px) {
   .full-width-image-section {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 
   .text-container img{
     width: 100%;
   }
+
 
   .full-width-image {
     width: 100%;
@@ -495,12 +500,21 @@ body {
     object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
   }
 
+  .carousel-section{
+    margin: 0;
+  }
+
   .carousel-section h2 {
     font-size: 20px;
+    margin: 0;
   }
 
   .show-all-btn {
     font-size: 14px;
+  }
+
+  .btn-primary-h{
+    margin-top: 0;
   }
 
   .slick-prev, .slick-next {
