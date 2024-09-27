@@ -931,6 +931,10 @@ body {
 
 @media (max-width: 768px) {
 
+  .virtue-section{
+    height: 63vh;
+  }
+
   .virtue-inner-image{
     width: 130%;
     left: 65%;
@@ -944,6 +948,10 @@ body {
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
+  }
+
+  .factory-carousel-section{
+    padding: 0;
   }
 
   .carousel-item {
@@ -961,6 +969,7 @@ body {
   .benefits-section {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
   .benefit {
@@ -1096,13 +1105,16 @@ body {
   .video-background::before,
 .video-background::after {
   width: 15px;
-  
-}
+  }
+
+  .col-md-6{
+    padding: 30px;
+  }
 }
 
 @media (max-width: 413px){
   .contact-container {
-    height: 100vh;
+    height: 90vh;
   }
 }
 
