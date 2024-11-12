@@ -26,7 +26,7 @@ const Footer = () => {
                     {/* Columna de información relevante */}
                     <div className="col-md-4 d-flex flex-column align-items-center align-items-md-end mb-3">
                         <p className="footer-info">Teléfono: 11-6561-5460</p>
-                        <p className="footer-info">Instagram: nivelceroarg</p>
+                        <p className="footer-info">Email: chemicalelab@gmail.com</p>
                         <p className="footer-info"></p>
                     </div>
                 </div>
